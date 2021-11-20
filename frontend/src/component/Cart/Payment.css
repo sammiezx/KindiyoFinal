@@ -1,0 +1,31 @@
+
+.main > h2{
+  text-align: center;
+  padding: 10;
+  background-color: rgb(72, 219, 136);
+  background-clip: border-box;
+  font-size: 4vmax;
+  color: antiquewhite;
+  font-family: "Roboto";
+
+}
+	.column {
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+	}
+  .column:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);  
+    transform: translateY(-2vmax);
+  }
+	img {
+	  width: 100%;
+	}
+	.container {
+	   display: flex;
+	}
